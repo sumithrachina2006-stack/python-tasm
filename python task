@@ -1,150 +1,170 @@
-#Arithmetic operators
-'''a=int(input("Enter a:"))
-b=int(input("Enter b:"))
-print(("Add:"),(a+b))
-print(("Sub:"),(a-b))
-print(("Mult:"),(a*b))
-print(("Div:"),(a/b))
-print(("Modulas:"),(a%b))
-print(("Float:"),(a//b))
-print(("Exp:"),(a**b))'''
 
-'''a=int(input("Enter a:"))
-print("last digit:",a%10)'''
+# OPERATORS 
 
-'''a=int(input("Enter a:"))
-print("Remove last digit:",a//10)'''
+# 1. Arithmetic Operators
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
 
-'''a=int(input("Length:"))
-b=int(input("Breadth:"))
-print("Area of Rectangle:",a*b)
-print("Perimeter of Rectangle:",2*(a+b))'''
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+print("Modulus:", a % b)
+print("Floor Division:", a // b)
+print("Exponentiation:", a ** b)
 
-#Comparison opertors
-'''a=int(input("Enter a:"))
-b=int(input("Enter b:"))
-print("Greater:",a>b)
-print("Smaller:",a<b)
-print("Both are equal:",a==b)'''
 
-'''a=int(input("Enter a:"))
-print(a>=50)'''
+# 2. Find Last Digit
+num = int(input("Enter a number: "))
+print("Last digit:", num % 10)
 
-#Logical operators
-'''a=int(input("Enter a:"))
-if a>=18:
-    print("Vote")'''
 
-'''a=int(input("Enter a:"))
-b=int(input("Enter b:"))
-print(a>100 or b>100)'''
+# 3. Remove Last Digit
+num = int(input("Enter a 3-digit number: "))
+print("After removing last digit:", num // 10)
 
-'''a=str(input("Enter Username:"))
-b=int(input("Enter Password:"))
-print(a=="Vimal" and b==12345)'''
 
-#Assignment operators
-'''a=int(input("Enter a:"))
-a+=100
-a-=100
-a*=100
-a/=100
-print(a)'''
+# 4. Rectangle Area and Perimeter
+length = int(input("Enter length: "))
+breadth = int(input("Enter breadth: "))
 
-#Membership operators
-'''a=["vimal","chandru","surya","tamil"]
-b=str(input("Enter the name:"))
-print(b in a)'''
+print("Area:", length * breadth)
+print("Perimeter:", 2 * (length + breadth))
 
-'''a=["apple","mango","banana","grapes"]
-b=str(input("Enter the fruit:"))
-print(b in a)'''
 
-#identify operators
-'''a=[2,4,6,8]
-b=a
-print(b is a)'''
+# 5. Comparison Operators
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
 
-'''a=[2,4,5,6]
-b=[2,4,5,6]
-print(a==b)
-print(a is b)'''
+print("a is greater:", a > b)
+print("a is smaller:", a < b)
+print("Both are equal:", a == b)
 
-#Bitwise operators
-'''a=int(input("Enter a:"))
-b=int(input("Enter b:"))
-print(a&b)
-print(a|b)
-print(a^b)
-print(~a)
-print(~b)'''
 
-'''a=int(input("Enter a:"))
-b=int(input("Enter b:"))
-c=(a&b)
-d=(a|b)
-if c>d:
-    print("AND")
-else:
-    print("OR")'''
+# 6. Mark Greater Than or Equal to 50
+mark = int(input("Enter mark: "))
+print("Pass:", mark >= 50)
 
-#Task 1
-'''a=int(input("Enter a:"))
-if a%2==0:
+
+# 7. Voting Eligibility AND Valid ID
+age = int(input("Enter age: "))
+id_status = input("Do you have valid ID? ")
+
+print(age >= 18 and id_status == "yes")
+
+
+# 8. At Least One Number Greater Than 100
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+
+print(a > 100 or b > 100)
+
+
+# 9. Username and Password
+username = input("Enter username: ")
+password = input("Enter password: ")
+
+print(username == "admin" and password == "1234")
+
+
+# 10. Assignment Operators
+a = 100
+
+a += 10
+print("After +=:", a)
+
+a -= 20
+print("After -=:", a)
+
+a *= 2
+print("After *=:", a)
+
+a /= 5
+print("After /=:", a)
+
+
+# 11. Student Name in List
+students = ["Arun", "Bala", "Priya", "Divya"]
+
+name = input("Enter student name: ")
+print(name in students)
+
+
+# 12. Apple and Mango in List
+fruits = ["Apple", "Banana", "Mango", "Orange"]
+
+print("Apple" in fruits)
+print("Mango" in fruits)
+
+
+# 13. Character in String
+text = input("Enter a string: ")
+character = input("Enter a character: ")
+
+print(character in text)
+
+
+# 14. Identity Operator - Same List
+list1 = [10, 20, 30]
+list2 = list1
+
+print(list1 is list2)
+
+
+# 15. == and is
+list1 = [10, 20, 30]
+list2 = [10, 20, 30]
+
+print(list1 == list2)
+print(list1 is list2)
+
+
+# 16. Bitwise AND, OR, XOR
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+
+print("AND:", a & b)
+print("OR:", a | b)
+print("XOR:", a ^ b)
+
+
+# 17. Bitwise NOT
+num = int(input("Enter a number: "))
+print("NOT:", ~num)
+
+
+# 18. Bitwise AND and OR
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+
+print("Bitwise AND:", a & b)
+print("Bitwise OR:", a | b)
+
+
+# IF-ELSE 
+
+# 19. Even or Odd
+num = int(input("Enter a number: "))
+
+if num % 2 == 0:
     print("Even")
 else:
-    print("Odd")'''
+    print("Odd")
 
-#Task 2
-'''a=int(input("Enter a:"))
-if a>0:
+
+# 20. Positive, Negative or Zero
+num = int(input("Enter a number: "))
+
+if num > 0:
     print("Positive")
-elif a<0:
+elif num < 0:
     print("Negative")
 else:
-    print("Zero")'''
+    print("Zero")
 
-#Task 3
-'''a=int(input("Voter age:"))
-if a>18:
-    print("Vote")
-else:
-    print("Cannot vote")'''
 
-#Task 4
-'''a=int(input("Enter a:"))
-b=int(input("Enter b:"))
-if a>b:
-    print("Bigger:",a)
-else:
-    print("Bigger:",b)'''
+# 21. Voting Eligibility
+age = int(input("Enter your age: "))
 
-#Task 5
-'''a=int(input("Student Mark:"))
-if a>=50:
-    print("Pass")
-else:
-    print("Fail")'''
-
-#Task 6
-'''a=int(input("Enter a:"))
-if a%5==0:
-    print("Divisible by 5")
-else:
-    print("Not")'''
-
-#Task 7
-'''a=int(input("Enter a:"))
-print("last digit:",a%10)
-if a%2==0:
-    print("Even")
-else:
-    print("Odd")'''
-
-#Task 8
-'''a=str(input("Username:"))
-b=int(input("Password:"))
-if a=="vimal" and b==2797:
-    print("Login")
-else:
-    print("Unsuccessful")'''
+if age >= 18:
+    print("Eligible to vote")
