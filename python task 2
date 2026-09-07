@@ -1,0 +1,123 @@
+#IF-ELSE
+# a=int(input("Enter value"))
+# if a%2!=0:
+#   print ("odd")
+# else:
+#   print ("Even")
+  #IF-ELSE
+#IF-ELSE
+# a=int(input("Enter value"))
+# if a>18:
+#   print("Eligible")
+# else:
+#   print("Not eligible")
+#   #IF-ELSE
+# a=int(input("Enter value")) 
+# if a>16:
+#   print("positive")
+# else:
+#   print("negative")
+#IF-ELSE
+# a=int(input("Enter value"))
+# if a>35:
+#   print("pass")
+# else:
+#   print("fail")
+# a=int(input("Enter value"))
+# if a>5:
+#   print("divisible")
+# else:
+#   print("Not")       
+#ELIF
+# a=int(input("Enter value"))
+# if a==35:
+#   print("class D")
+# elif a==50:
+#     print("class c")
+# elif a==75:
+#   print("class b")
+# elif a==90:
+#   print("class a")
+# else:
+#   print("none")
+# a=int(input("Enter value"))
+# if a==37:
+#   print("smallest")
+# elif a==45:
+#   print("medium")
+# elif a==95:
+#   print("largest")
+# else:
+#   print("none")
+# a=int(input("Enter value")) 
+# b=int(input("Enter value"))
+# op=input("Enter operator(+,-,*,/):")
+# if op=="+":
+#   print("a+b")
+# elif op=="-":
+#   print("a-b")
+# elif op== "*":
+#   print("a*b")
+# elif op=="/":
+#   print("a/b")
+# else:
+#   print("nothing")
+# 
+# a=int(input("Enter value"))
+# if a==50:
+#   print("base")
+# elif a==100:
+#   print("minimum")
+# elif a==200:
+#   print("average")
+# elif a==400:
+#   print("advanced")
+# elif a==1000:
+#   print("prime")
+# else:
+#   print("nothing")
+#NESTED IF-ELSE
+# p=int(input("Enter password"))
+# u=str(input("Enter username"))
+# if u=="viratkholi":
+#    if p==1235667:
+#   print("login")
+# else:
+#   print("unsuccessful")
+# else:
+#   print("timeout")
+budget = int(input("Enter your budget: "))
+brand = input("Enter laptop brand: ")
+
+if budget >= 50000:
+    if brand == "Dell":
+        print("You can purchase the laptop")
+    else:
+        print("Brand is not preferred")
+else:
+    print("Budget is not sufficient")
+ attendance = int(input("Enter attendance percentage: "))
+
+if attendance >= 75:
+    mark = int(input("Enter your mark: "))
+
+    if mark >= 40:
+        print("Eligible and Passed")
+    else:
+        print("Eligible but Failed")
+else:
+    print("Not eligible for exam")
+pin = int(input("Enter your PIN: "))
+
+if pin == 1234:
+    balance = 10000
+    amount = int(input("Enter withdrawal amount: "))
+
+    if amount <= balance:
+        print("Withdrawal successful")
+        print("Remaining balance:", balance - amount)
+    else:
+        print("Insufficient balance")
+else:
+    print("Incorrect PIN")
+age=int(input("Age: ")); movie=input("Movie type (2D/3D/IMAX): "); tickets=int(input("Tickets: ")); if age>=18: price=150 if movie=="2D" else 250 if movie=="3D" else 350 if movie=="IMAX" else 0; print("Total:",price*tickets) if price>0 else print("Invalid movie type"); else: print("Not eligible")
