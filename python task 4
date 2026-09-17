@@ -1,0 +1,157 @@
+ #STRING
+# #lower and upper
+# a="sumithra"
+# print(a.upper())
+# b="VIRAT"
+# print(b.lower())
+
+# #swapcase
+# a="SumithrA"
+# print(a.swapcase())
+# b="CRICKET"
+# print(b.swapcase())
+
+# #capitalize
+# a="viratkholi"
+# print(a.capitalize())
+
+# #startwith
+# a="Sumithra"
+# print(a.startswith('S')) 
+# print(a.startswith('s'))
+
+# #endswith
+# b="SUMITHRA"
+# print(b.endswith('RA'))
+# print(b.endswith('rc'))
+
+# #replace
+# c="python"
+# print(c.replace('py','ja'))
+
+# #strip
+# a="     sumi     "
+# print(a.strip())
+
+# #split
+# a="Virat is good player"
+# print(a.split())
+
+
+#format
+# a="sumithra"
+# b="20"
+# c="salem"
+# print(f"my name is {a}")
+# print(f"iam{b}years old")
+# print(f"i live in{c}")
+
+# #center
+# c="python"
+# print(c.center(20))
+
+# #ljust
+# a="java"
+# print(a.ljust(20))
+
+# #rjust
+# b="cricket"
+# print(b.rjust(20))
+
+# #zfill
+# c="hii"
+# print(c.zfill(6))
+
+# #isdigit
+# a="1234sumi"
+# print(a.isdigit())
+
+# #isalpha
+# b="python"
+# print(b.isalpha())
+
+# #isascii
+# c="12345summii"
+# print(c.isascii())
+
+# #combainedtask
+# #remove extra spaces
+# a=input("enter username:")
+# print(a.strip())
+
+# #capitalize
+# a=input("enter name:")
+# print(a.sumithra())
+
+#ascii
+# a=input("Enter filename ")
+# print(a.isascii())
+# print(a.isalpha())
+# print(a.isdigit())
+
+# #check contains only digits
+# a=input("Enter number")
+# print(a.isdigit())
+
+# #add zeros using zfill
+# a=input("Enter number")
+# print(a.zfill(15))
+
+# #convert it into uppercase
+# a=input("Enter name")
+# print(a.upper())
+
+''''#replace the space with
+text=input("Enter value:")
+print(text.replace("  ","-"))
+
+#split it into a words
+a=input("Enter a value:")
+print(a.split())'''''
+
+#print each word separately
+b=input("Enter value:")
+print(b.split())
+
+#for else tasks
+for i in range(1,6):
+    print(i)
+else:
+    print("loop completed")
+#print even numbers
+for i in range(1,11):
+  if i%2==0:
+    print(i)
+else:
+    print("not okay")
+
+#print each word in python
+for char in "python":
+   print(char)
+else:
+    print("loop completed")
+
+#search for 5
+for i in(1,2,3,4,5,6):
+  if i==5:
+    print("5 found")
+    break
+else:
+    print("break")
+
+#search for 10
+for i in(2,4,6,8):
+  if i==10:
+    print(i)
+    break
+else:
+    print("loop completed")
+
+# search for the letter
+for i in("apple"):
+    if i=="a":
+        print(i)
+        break
+else:
+    print("loop completed")
+
